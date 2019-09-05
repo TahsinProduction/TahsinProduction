@@ -1,0 +1,46 @@
+.site-footer {
+  background-color: $white;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+
+  .footer-social-links {
+    text-align: center;
+
+    ul.social-links-list {
+      li {
+        margin-right: 25px;
+        display: inline-block;
+
+        a {
+          color: $dark-gray;
+
+          &.facebook:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.twitter:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.myspace:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.reddit:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.linkedin:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.tumblr:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.medium:hover {
+            color: rgb(66, 103, 178);
+          }
+          &.quora:hover {
+            color: rgb(66, 103, 178);
+          }
+        }
+      }
+    }
+  }
+}
