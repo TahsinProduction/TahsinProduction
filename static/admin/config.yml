@@ -18,6 +18,5 @@ collections:
       - {label: "Categories", name: "categories", widget: "hidden", default: "Posts"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: "TahsinProduction" }
-      - {label: Sharing, name: share, widget: boolean, default: true}
       - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
