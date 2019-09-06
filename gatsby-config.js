@@ -3,6 +3,7 @@ module.exports = {
     title: `TahsinProduction`,
     description: `Offical Website Of TahsinProduction`,
     author: `@TahsinProduction`,
+    siteUrl: 'https://www.tahsinproduction.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,6 +11,28 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     `gatsby-plugin-netlify-cms`,
+    'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/admin`, `/tags/links`]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-147244731-1`,
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.tahsinproduction.com',
+        sitemap: 'https://www.tahsinproduction.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
