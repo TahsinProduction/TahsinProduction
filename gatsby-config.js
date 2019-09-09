@@ -14,6 +14,14 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-5CNMSWD",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
+    {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         exclude: [`/admin`, `/tags/links`]
