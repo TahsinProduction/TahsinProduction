@@ -3,8 +3,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 const AboutPage = () => (
   <Layout pageTitle="Terms And Condition">
-    <SEO title="TermsAndCondition" keywords={[`gatsby`, `application`, `react`]} /><div className="col-md-3"></div>
-    <img src = "https://lh3.googleusercontent.com/66fkMhM37jZ2C1I9HZbIpn_Oebmx_HytEbvFd4HSKjpULIzO5hzh8w2dRBaibstgIIlUYDkeh8g5KAT1-mFV8tPuZu1cT3aiF1ZeaiB67xlbvh7TtlhdkkhnXRtmfAJEUmpsKR7Q" width="100%" height="auto" margin="0 auto" alt="embed" />
+    <SEO title="TermsAndCondition" keywords={[`TahsinProduction`, `Tahsin Production`, `Terms And Condition`]} /><div className="col-md-3"></div>
+    <img src = "https://lh3.googleusercontent.com/66fkMhM37jZ2C1I9HZbIpn_Oebmx_HytEbvFd4HSKjpULIzO5hzh8w2dRBaibstgIIlUYDkeh8g5KAT1-mFV8tPuZu1cT3aiF1ZeaiB67xlbvh7TtlhdkkhnXRtmfAJEUmpsKR7Q" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" />
 <h1><strong>Terms and Conditions of TahsinProduction</strong></h1>
 <p>Welcome to TahsinProduction!</p>
 <p>These terms and conditions outline the rules and regulations for the use of TahsinProduction's Website, located at tahsinproduction.com.</p>
