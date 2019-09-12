@@ -5,7 +5,6 @@ import {
   CardBody,
 } from 'reactstrap'
 import { graphql, StaticQuery, Link } from 'gatsby'
-import Img from 'gatsby-image'
 
 const Sidebar = () => (
   <div>
