@@ -10,31 +10,21 @@ const Sidebar = () => (
   <div>
     <Card>
       <CardBody>
-        <CardTitle className="text-center text-uppercase">
+        <CardTitle className="mypurple">
           Advertisement
         </CardTitle>
-        <img
-          src="https://via.placeholder.com/320x200"
-          alt="Advert"
-          style={{ width: '100%' }}
-        />
       </CardBody>
     </Card>
     <Card>
       <CardBody>
-        <CardTitle className="text-center text-uppercase">
+        <CardTitle className="mypurple">
           Advertisement
         </CardTitle>
-        <img
-          src="https://via.placeholder.com/320x200"
-          alt="Advert"
-          style={{ width: '100%' }}
-        />
       </CardBody>
     </Card>
     <Card>
       <CardBody>
-        <CardTitle className="text-center text-uppercase mb-3">
+        <CardTitle className="mypurple mb-3">
           Recent Posts
         </CardTitle>
         <StaticQuery
