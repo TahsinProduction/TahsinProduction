@@ -6,37 +6,14 @@ import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
 const schemaOrgWebPage = {
-  '@context': 'http://schema.org',
-  '@type': 'WebPage',
-  url: siteUrl,
-  headline,
-  inLanguage: siteLanguage,
-  mainEntityOfPage: siteUrl,
-  description: defaultDescription,
-  name: defaultTitle,
-  author: {
-    '@type': 'Person',
-    name: author,
-  },
-  copyrightHolder: {
-    '@type': 'Person',
-    name: author,
-  },
-  copyrightYear: '2019',
-  creator: {
-    '@type': 'Person',
-    name: author,
-  },
-  publisher: {
-    '@type': 'Person',
-    name: author,
-  },
-  datePublished: '2019-01-18T10:30:00+01:00',
-  dateModified: buildTime,
-  image: {
-    '@type': 'ImageObject',
-    url: `${siteUrl}${defaultBanner}`,
-  },
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"name": "TahsinProduction",
+	"description": "New generation of content production. Information, news, blog and anything that can full fill the hunger of knowledge in human brain.",
+	"image": "https://i.postimg.cc/pdJ5HwKm/Website.jpg",
+	"logo": "https://i.postimg.cc/kMp6qFRv/Square.png",
+	"url": "https://www.tahsinproduction.com",
+	"sameAs": ["https://twitter.com/TahsinProduct","https://www.facebook.com/TahsinProduction-113057803405042/","https://www.youtube.com/channel/UCxxfd-YnLIxnGq1gVEraXig","https://www.reddit.com/user/TahsinProduction"]  
 }
 
 const IndexPage = () => {
