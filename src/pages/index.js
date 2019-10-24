@@ -5,6 +5,26 @@ import { graphql, StaticQuery } from 'gatsby'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
+export function onRenderBody(
+  { setHeadComponents }) {
+setHeadComponents([
+     <script
+     dangerouslySetInnerHTML={{
+        __html=`
+      	"@context": "http://schema.org",
+	      "@type": "Organization",
+	      "name": "TahsinProduction",
+	      "description": "New generation of content production. Information, news, blog and anything that can full fill the hunger of knowledge in human brain.",
+	      "image": "https://i.postimg.cc/pdJ5HwKm/Website.jpg",
+	      "logo": "https://i.postimg.cc/kMp6qFRv/Square.png",
+	      "url": "https://www.tahsinproduction.com",
+	      "sameAs": ["https://twitter.com/TahsinProduct","https://www.facebook.com/TahsinProduction-113057803405042/","https://www.youtube.com/channel/UCxxfd-YnLIxnGq1gVEraXig","https://www.reddit.com/user/TahsinProduction"]
+   	    `
+        }}
+        />,
+        ]);
+        }
+
 const IndexPage = () => {
   const postsPerPage = 2
   let numberOfPages
