@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="TahsinProduction">
       <SEO title="Home" keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
-      <img src = "https://i.postimg.cc/1XmHYPh9/Official-Cover-Tahsin-Production.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" /><br></br><div className="mywhite"><h1>New Articles</h1></div>
+      <img src = "https://i.postimg.cc/wqJGMTws/Official-Cover-Tahsin-Production.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" /><br></br><div className="mywhite"><h1>New Articles</h1></div>
       <StaticQuery
         query={indexQuery}
         render={data => {
