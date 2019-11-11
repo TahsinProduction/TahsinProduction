@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 const AboutPage = () => (
   <Layout pageTitle="Terms And Condition">
     <SEO title="TermsAndCondition" keywords={[`TahsinProduction`, `Tahsin Production`, `Terms And Condition`]} /><div className="col-md-3"></div>
-    <img src = "https://i.postimg.cc/rM1htVjr/Official-Cover-Tahsin-Production-1.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" />
+    <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" />
 <h1><strong>Terms and Conditions of TahsinProduction</strong></h1>
 <p>Welcome to TahsinProduction!</p>
 <p>These terms and conditions outline the rules and regulations for the use of TahsinProduction's Website, located at tahsinproduction.com.</p>
