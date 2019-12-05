@@ -11,8 +11,8 @@ const IndexPage = () => {
   let numberOfPages
   return (
     <Layout pageTitle="TahsinProduction">
-      <SEO title="Home"
-           description="Description of the site/home page."
+      <SEO title="TahsinProduction"
+           description="Welcome to TahsinProduction. We are new generation of content production. Start looking at the usual world in a unusual way."
            pagePath="/"
            schema={`{
               "@context": "http://schema.org",
