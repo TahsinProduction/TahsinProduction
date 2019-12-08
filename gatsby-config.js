@@ -36,8 +36,8 @@ module.exports = {
               "caption": "TahsinProduction"
             }
           }`
-      }
-    }
+      },
+    },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {

@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import { graphql, StaticQuery } from 'gatsby'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 import { SEO, useSEO } from "gatsby-plugin-seo";
 
 const IndexPage = () => {
+  const { siteUrl } = useSEO();
   const postsPerPage = 2
   let numberOfPages
   return (
@@ -20,7 +20,7 @@ const IndexPage = () => {
               "mainEntity": {
                 "@type": "Organization",
                 "name": "TahsinProduction",
-                "image": "https://images2.imgbox.com/2b/88/NQSvb5zx_o.png"
+                "image": "${siteUrl}/img/logo.png"
               }
             }`}
             keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
