@@ -32,7 +32,7 @@ module.exports = {
             "image": {
               "@type": "ImageObject",
               "@id": "https://tahsinproduction.com/#logo",
-              "url": "https://images2.imgbox.com/2b/88/NQSvb5zx_o.png",
+              "url": "https://tahsinproduction.com/img/logo.png",
               "caption": "TahsinProduction"
             }
           }`
