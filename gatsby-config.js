@@ -17,7 +17,7 @@ module.exports = {
       resolve: "gatsby-plugin-seo",
       options: {
         siteName: "TahsinProduction",
-        defaultSiteImage: "https://images2.imgbox.com/2b/88/NQSvb5zx_o.png",
+        defaultSiteImage: "https://tahsinproduction.com/img/logo.png",
         siteUrl: "https://www.tahsinproduction.com/",
         twitterCreator: "@twitterhandle",
         twitterSite: "@twitterhandle",
