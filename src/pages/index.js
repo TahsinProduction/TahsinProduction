@@ -10,23 +10,7 @@ const IndexPage = () => {
   let numberOfPages
   return (
     <Layout pageTitle="TahsinProduction">
-<<<<<<< HEAD
-      <SEO title="Home" keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
-=======
-      <SEO title="TahsinProduction"
-           description="Welcome to TahsinProduction. We are new generation of content production. Start looking at the usual world in a unusual way."
-           pagePath="/"
-           schema={`{
-              "@context": "http://schema.org",
-              "@type": "WebPage",
-              "mainEntity": {
-                "@type": "Organization",
-                "name": "TahsinProduction",
-                "image": "https://images2.imgbox.com/2b/88/NQSvb5zx_o.png"
-              }
-            }`}
-            keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
->>>>>>> parent of 2d9716e... Bug Fix
+      <SEO description="TahsinProduction brings to you the new generation of content production" keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
       <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" /><br></br><div className="mywhite"><h1>New Articles</h1></div>
       <StaticQuery
         query={indexQuery}
