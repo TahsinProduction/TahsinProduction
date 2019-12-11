@@ -14,31 +14,6 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
     {
-      resolve: "gatsby-plugin-seo",
-      options: {
-        siteName: "TahsinProduction",
-        defaultSiteImage: "/img/logo.png",
-        siteUrl: "https://www.tahsinproduction.com/",
-        twitterCreator: "@twitterhandle",
-        twitterSite: "@twitterhandle",
-        globalSchema: `{
-            "@type": "WebSite",
-            "@id": "https://tahsinproduction.com/#website",
-            "url": "https://www.tahsinproduction.com/",
-            "name": "TahsinProduction",
-            "publisher": {
-              "@id": "https://tahsinproduction.com/about/#organization"
-            },
-            "image": {
-              "@type": "ImageObject",
-              "@id": "https://tahsinproduction.com/#logo",
-              "url": "https://tahsinproduction.com/img/logo.png",
-              "caption": "TahsinProduction"
-            }
-          }`
-      },
-    },
-    {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-5CNMSWD",

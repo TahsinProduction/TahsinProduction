@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import { graphql, StaticQuery } from 'gatsby'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
-import { SEO, useSEO } from "gatsby-plugin-seo";
 
 const IndexPage = () => {
   const { siteUrl } = useSEO();
@@ -11,19 +10,7 @@ const IndexPage = () => {
   let numberOfPages
   return (
     <Layout pageTitle="TahsinProduction">
-      <SEO title="TahsinProduction"
-           description="Welcome to TahsinProduction. We are new generation of content production. Start looking at the usual world in a unusual way."
-           pagePath="/"
-           schema={`{
-              "@context": "http://schema.org",
-              "@type": "WebPage",
-              "mainEntity": {
-                "@type": "Organization",
-                "name": "TahsinProduction",
-                "image": "${siteUrl}/img/logo.png"
-              }
-            }`}
-            keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
+      <SEO title="Home" keywords={[`TahsinProduction`, `Tahsin Prodcution`, `TahsinProduction Home`]} />
       <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" /><br></br><div className="mywhite"><h1>New Articles</h1></div>
       <StaticQuery
         query={indexQuery}
