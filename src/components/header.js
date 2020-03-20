@@ -33,7 +33,15 @@ class Header extends React.Component {
           <div className="container">
           <img src={mylogo} width="40px" alt="My Logo" />
             <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
+            <NavbarToggler onClick={this.toggle}>
+            {/* Close mark */}
+            <div id="close-icon" className={this.state.isOpen ? "open" : "" }>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            {/* close mark ends */}
+            </NavbarToggler>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
               <NavItem>

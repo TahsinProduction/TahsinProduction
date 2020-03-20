@@ -13,31 +13,34 @@
         display: inline-block;
 
         a {
-          color: $dark-gray;
+          color: #663399;
 
           &.facebook:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.twitter:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.myspace:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.reddit:hover {
-            color: #663399;
+            color: #007bff;
+          }
+          &.mainsite:hover {
+            color: #007bff;
           }
           &.linkedin:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.tumblr:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.medium:hover {
-            color: #663399;
+            color: #007bff;
           }
           &.quora:hover {
-            color: #663399;
+            color: #007bff;
           }
         }
       }

@@ -22,24 +22,24 @@ const SinglePost = ({ data, pageContext, location }) => {
         url={baseUrl}
         pathname={location.pathname}
       />
-      <Card>
+      <strong><Card>
         <CardBody>
           <CardSubtitle>
-            <span className="text-info">{post.date}</span> by{' '}
-            <span className="text-info">{post.author}</span>
+            <span className="text-primary">{post.date}</span> by{' '}
+            <span className="text-primary">{post.author}</span>
           </CardSubtitle>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           <ul className="post-tags">
             {post.tags.map(tag => (
               <li key={tag}>
                 <Link to={`/tag/${slugify(tag)}`}>
-                  <Badge color="primary">{tag}</Badge>
+                  <Badge color="primary" className="text-uppercase">{tag}</Badge>
                 </Link>
               </li>
             ))}
           </ul>
         </CardBody>
-      </Card>
+      </Card></strong>
       <h3 className="text-center"><strong><span className="mywhite">Share this post</span></strong></h3>
       <div className="text-center social-share-links">
         <ul>

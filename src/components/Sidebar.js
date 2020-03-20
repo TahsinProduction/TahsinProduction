@@ -11,21 +11,21 @@ const Sidebar = () => (
     <Card>
       <CardBody>
         <CardTitle className="mypurple">
-          Advertisement
+          <strong>Advertisement</strong>
         </CardTitle>
       </CardBody>
     </Card>
     <Card>
       <CardBody>
         <CardTitle className="mypurple">
-          Advertisement
+          <strong>Advertisement</strong>
         </CardTitle>
       </CardBody>
     </Card>
     <Card>
       <CardBody>
-        <CardTitle className="mypurple mb-3">
-          Recent Posts
+        <CardTitle className="mypurple">
+          <strong>Recent Posts</strong>
         </CardTitle>
         <StaticQuery
           query={sidebarQuery}
@@ -37,9 +37,9 @@ const Sidebar = () => (
                   </Link>
                   <CardBody>
                     <CardTitle>
-                      <Link to={node.fields.slug}>
+                      <strong><Link to={node.fields.slug}>
                         {node.frontmatter.title}
-                      </Link>
+                      </Link></strong>
                     </CardTitle>
                   </CardBody>
                 </Card>

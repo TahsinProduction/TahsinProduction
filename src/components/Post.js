@@ -14,13 +14,13 @@ const Post = ({ title, author, slug, date, body, tags }) => (
   <Card>
     <CardBody>
       <CardTitle>
-        <Link to={slug}>{title}</Link>
+        <strong><Link to={slug}>{title}</Link></strong>
       </CardTitle>
-      <CardSubtitle>
-        <span className="text-info">{date}</span> by{' '}
-        <span className="text-info">{author}</span>
-      </CardSubtitle>
-      <CardText>{body}</CardText>
+      <strong><CardSubtitle>
+        <span className="text-primary">{date}</span> by{' '}
+        <span className="text-primary">{author}</span>
+      </CardSubtitle></strong>
+      <strong><CardText>{body}</CardText></strong>
       <ul className="post-tags">
         {tags.map(tag => (
           <li key={tag}>

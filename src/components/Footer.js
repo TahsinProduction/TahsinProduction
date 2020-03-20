@@ -48,6 +48,16 @@ const Footer = () => (
         </li>
         <li>
           <a
+            href="https://www.tahsinproduction.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mainsite"
+          >
+            <i className="fas fa-globe fa-2x" />
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.linkedin.com/in/tahsin-production-850b77192/"
             target="_blank"
             rel="noopener noreferrer"
