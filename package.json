@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "tahsin-production",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "An official website of TahsinProduction",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tahsin Kabir Khan <admin@tahsinproduction.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "core-js": "^3.4.8",
