@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => (
   <div className="site-footer">
-    <h4><strong><span className="mypurple">TahsinProduction</span></strong></h4>
-    <p><span className="mypurple">Places To Find Us</span></p>
+    <h4><strong><span className="mypurple">TahsinProduction&nbsp;</span></strong></h4>
+    <p><span className="mypurple">Places To Find Us&nbsp;</span></p>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
