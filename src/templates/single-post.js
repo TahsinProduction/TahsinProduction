@@ -24,8 +24,7 @@ const SinglePost = ({ data, pageContext, location }) => {
       />
       <strong><Card>
         <CardBody>
-          <CardSubtitle>
-            <span className="text-primary">{post.date}</span> by{' '}
+          <CardSubtitle> Written By{' '}
             <span className="text-primary">{post.author}</span>
           </CardSubtitle>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
