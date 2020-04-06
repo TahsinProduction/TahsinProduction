@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 const AboutPage = () => (
   <Layout pageTitle="Privacy Policy">
     <SEO title="PrivacyPolicy" keywords={[`TahsinProduction`, `Tahsin Production`, `Privacy Policy`]} /><div className="col-md-3"></div>
-<img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="0 auto" alt="TahsinProduction Tahsin Production" />
+<img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="auto" alt="TahsinProduction Tahsin Production" />
 <h1 className="mypurple">Privacy Policy of TahsinProduction</h1>
 <p className="mypurple">TahsinProduction operates the tahsinproduction.com website, which provides the SERVICE.</p>
 <p className="mypurple">This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the TahsinProduction website.</p>
