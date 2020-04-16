@@ -2,7 +2,7 @@
   margin-top: 60px;
 }
 body {
-  background-color: $light-gray;
+  background: linear-gradient(0deg, rgba(10,227,109,1) 0%, rgba(19,227,180,1) 50%, rgba(4,189,238,1) 100%);
   font-family: $site-font;
 }
 a {
@@ -20,12 +20,12 @@ h1 {
   background-color: white;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
-  border-bottom: 0.5px solid rgb(102,51,153);
+  border-bottom: 2px solid rgba(19,227,180,1);
   line-height: 1;
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color: #663399;
+  color: rgba(4,189,238,1);
   font-weight: bold;
   &:hover {
     color: #007bff;
@@ -38,10 +38,19 @@ ul {
 }
 .mywhite{
   background-color: white;
-  color: #663399;
+  color: rgba(4,189,238,1);
+}
+.mysocial{
+  background-color: white;
+  color: rgba(10,227,109,1);
 }
 .mypurple{
-  background-color: #663399;
+  background: linear-gradient(90deg, rgba(10,227,109,1) 0%, rgba(19,227,180,1) 50%, rgba(4,189,238,1) 100%);
+  color: white;
+  text-align: center;
+}
+.mytext{
+  background: rgba(255, 255, 255, 0.0);
   color: white;
   text-align: center;
 }
