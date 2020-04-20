@@ -7,7 +7,7 @@ import Footer from './Footer'
 import Sidebar from './Sidebar'
 import '../styles/index.scss'
 
-import { Row, Col } from 'reactstrap'
+import { Row, Col, Card, CardBody } from 'reactstrap'
 
 const Layout = ({ children, pageTitle }) => (
   <StaticQuery
@@ -30,7 +30,16 @@ const Layout = ({ children, pageTitle }) => (
         />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container" id="content">
-          <h1><strong><span className="mywhite">{pageTitle}&nbsp;</span></strong></h1>
+        <br/>
+        <h3><strong>
+        <Card>
+          <CardBody>
+            <div className="mypurple">
+              {pageTitle}
+            </div>
+          </CardBody>
+        </Card>
+        </strong></h3>
           <Row>
             <Col md="8">{children}</Col>
             <Col md="4">
