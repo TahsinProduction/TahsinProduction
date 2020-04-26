@@ -6,6 +6,7 @@
   "author": "Tahsin Kabir Khan <admin@tahsinproduction.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "caniuse-lite": "^1.0.30001048",
     "codemirror": "^5.52.2",
     "core-js": "^3.4.8",
     "gatsby": "^2.18.10",
@@ -39,7 +40,7 @@
     "reactstrap": "^8.0.1",
     "redux": "^2.0.0",
     "sharp": "^0.23.4",
-    "slate": "^0.46.0",
+    "slate": "^0.47.0",
     "typescript": "^3.6.4"
   },
   "keywords": [
