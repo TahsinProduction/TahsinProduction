@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 const AboutPage = () => (
   <Layout pageTitle="About Us">
-    <SEO title="About" keywords={[`TahsinProduction`, `Tahsin Production`, `About Us`]} />
+    <SEO title="About Us" keywords={[`TahsinProduction`, `Tahsin Production`, `About Us`]} />
     <div className="col-md-3"></div>
     <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="auto" alt="TahsinProduction Tahsin Production" />
 <p className="mytext">Welcome to TahsinProduction, your number one source for all authentic content. We're dedicated to giving you the very best of digital content, with a focus on autheticity, quality of content.</p>

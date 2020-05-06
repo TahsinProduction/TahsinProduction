@@ -48,7 +48,7 @@ class Header extends React.Component {
                   <NavLink href="/tags">Tags</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/about">AboutUs</NavLink>
+                  <NavLink href="/aboutus">AboutUs</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/privacy">PrivacyPolicy</NavLink>
@@ -57,7 +57,7 @@ class Header extends React.Component {
                   <NavLink href="/terms">TermsAndCondition</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/contact">ContactUs</NavLink>
+                  <NavLink href="/contactus">ContactUs</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

@@ -9,8 +9,8 @@ const IndexPage = () => {
   const postsPerPage = 2
   let numberOfPages
   return (
-    <Layout pageTitle="TahsinProduction">
-      <SEO description="TahsinProduction brings to you the new generation of content production" keywords={[`TahsinProduction`, `Tahsin Production`, `TahsinProduction Home`]} />
+    <Layout pageTitle="Home">
+      <SEO title="TAQOA" description="TahsinProduction brings to you the new generation of content production" keywords={[`TahsinProduction`, `Tahsin Production`, `TahsinProduction Home`]} />
       <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="auto" alt="TahsinProduction Tahsin Production" /><br></br><br></br>
       <StaticQuery
         query={indexQuery}

@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 
 const AboutPage = () => (
   <Layout pageTitle="Contact Us">
-    <SEO title="ContactUS" keywords={[`TahsinProduction`, `Tahsin Production`, `Contact Us`]} />
+    <SEO title="Contact Us" keywords={[`TahsinProduction`, `Tahsin Production`, `Contact Us`]} />
     <div className="col-md-3"></div>
     <img src = "https://images2.imgbox.com/bb/97/iMDQ3WE2_o.jpg" width="100%" height="auto" margin="auto" alt="TahsinProduction Tahsin Production" />
 <h1 className="mytext">If you have any query or problem or want to say something to us then please fill the form below</h1><h1 className="mytext">You will receive reply shortly</h1>
