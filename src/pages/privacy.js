@@ -10,9 +10,9 @@ const AboutPage = () => (
 <br/>
 <p className="mytext">Thank you for choosing to be part of our community at TAQOA <strong>(&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;)</strong>. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy, or our practices with regards to your personal information, please contact us at contact@taqoa.com.</p>
 <br/>
-<p className="mytext">When you visit our website <a href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites and our services.</p>
+<p className="mytext">When you visit our website <a className="glow" href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our Sites and our services.</p>
 <br/>
-<p className="mytext">This privacy policy applies to all information collected through our website (such as <a href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the <strong>&quot;Services&quot;</strong>).</p>
+<p className="mytext">This privacy policy applies to all information collected through our website (such as <a className="glow" href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy policy as the <strong>&quot;Services&quot;</strong>).</p>
 <br/>
 <p className="mytext"><strong>Please read this privacy policy carefully as it will help you make informed decisions about sharing your personal information with us.</strong></p>
 <br/>
@@ -148,9 +148,9 @@ const AboutPage = () => (
 <br/>
 <p className="mytext">If we are relying on your consent to process your personal information, you have the right to withdraw your consent at any time. Please note however that this will not affect the lawfulness of the processing before its withdrawal.</p>
 <br/>
-<p className="mytext">If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a href="http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm" rel="noopener noreferrer" target="_blank">http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>.</p>
+<p className="mytext">If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <a className="glow" href="http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm" rel="noopener noreferrer" target="_blank">http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>.</p>
 <br/>
-<p className="mytext"><strong><u>Cookies and similar technologies:</u></strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt-out of interest-based advertising by advertisers on our Services visit <a href="http://www.aboutads.info/choices/" rel="noopener noreferrer" target="_blank">http://www.aboutads.info/choices/</a>.</p>
+<p className="mytext"><strong><u>Cookies and similar technologies:</u></strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. To opt-out of interest-based advertising by advertisers on our Services visit <a className="glow" href="http://www.aboutads.info/choices/" rel="noopener noreferrer" target="_blank">http://www.aboutads.info/choices/</a>.</p>
 <br/>
 <h2 className="mytext">11. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
 <br/>
@@ -176,6 +176,6 @@ const AboutPage = () => (
 <br/>
 <h2 className="mytext">HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
 <br/>
-<p className="mytext">Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: <a href="https://www.taqoa.com/contact" rel="noopener noreferrer" target="_blank">https://www.taqoa.com/contact</a>. We will respond to your request within 30 days.</p>
+<p className="mytext">Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: <a className="glow" href="https://www.taqoa.com/contact" rel="noopener noreferrer" target="_blank">https://www.taqoa.com/contact</a>. We will respond to your request within 30 days.</p>
 </Layout>)
 export default AboutPage

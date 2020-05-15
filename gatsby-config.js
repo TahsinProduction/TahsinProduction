@@ -42,12 +42,6 @@ module.exports = {
     },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-147244731-1`,
-      }
-    },
-    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         resolveEnv: () => NETLIFY_ENV,
@@ -83,8 +77,6 @@ module.exports = {
       },
     },
 
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

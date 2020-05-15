@@ -9,7 +9,7 @@ const AboutPage = () => (
 <p className="mytext"><strong>Last Updated 05 April 2020</strong></p>
 <br/>
 <h2 className="mytext"><strong>1. Agreement to Terms</strong></h2>
-<p className="mytext">1.1 These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and <strong>TAQOA.</strong>(<strong>we</strong>, <strong>us</strong>), concerning your access to and use of the <strong>TAQOA</strong><strong>(<a href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>)</strong>website as well as any related applications (the <strong>Site</strong>).</p>
+<p className="mytext">1.1 These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and <strong>TAQOA.</strong>(<strong>we</strong>, <strong>us</strong>), concerning your access to and use of the <strong>TAQOA</strong><strong>(<a className="glow" href="https://www.taqoa.com" rel="noopener noreferrer" target="_blank">https://www.taqoa.com</a>)</strong>website as well as any related applications (the <strong>Site</strong>).</p>
 <br/>
 <p className="mytext">The Site provides some services. You agree that by accessing the Site and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions.</p>
 <br/>
@@ -27,7 +27,7 @@ const AboutPage = () => (
 <br/>
 <p className="mytext">1.7 Additional policies which also apply to your use of the Siteinclude:</p>
 <br/>
-<p className="mytext"><strong>● Our Privacy Notice<a href="https://www.taqoa.com/privacy" rel="noopener noreferrer" target="_blank">https://www.taqoa.com/privacy</a> , which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.</strong></p><br/>
+<p className="mytext"><strong>● Our Privacy Notice<a className="glow" href="https://www.taqoa.com/privacy" rel="noopener noreferrer" target="_blank">https://www.taqoa.com/privacy</a> , which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.</strong></p><br/>
 <p className="mytext"><strong>● Our Acceptable Use Policy, which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy.</strong></p><br/>
 <br/>
 <h2 className="mytext"><strong>2. Acceptable Use</strong></h2>
