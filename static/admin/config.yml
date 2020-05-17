@@ -16,6 +16,5 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: description, label: Description, widget: string }
       - { name: tags, label: Tags, widget: list, required: true }
-      - { name: author, label: Author, widget: list }
       - { name: draft, label: Draft, widget: boolean, default: false }
       - { name: body, label: Body, widget: markdown }
