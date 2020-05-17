@@ -20,3 +20,5 @@ collections:
       - {label: Author, name: author, widget: "list", default: "TahsinProduction" }
       - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "SEO Description", name: "description", widget: "text"}
